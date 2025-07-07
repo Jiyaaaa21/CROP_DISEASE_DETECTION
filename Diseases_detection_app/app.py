@@ -35,15 +35,14 @@ uploaded_file = st.file_uploader("📤 Upload Leaf Image", type=["jpg", "jpeg", 
 
 if uploaded_file:
     img = Image.open(uploaded_file)
-    st.image(image, caption='Uploaded Image', use_container_width=True)
+    st.image(img, caption='Uploaded Image', use_container_width=True)
     st.write("Processing...")
-
 
     # Preprocess the image
     img = img.resize((224, 224))
     img_array = image.img_to_array(img)
     img_array = np.expand_dims(img_array, axis=0)
-    img_array /= 255.0  # Normalize
+    img_array /= 255.0  
 
     # Predict
     predictions = model.predict(img_array)
@@ -54,4 +53,3 @@ if uploaded_file:
         st.success(f"🔍 Prediction: **{class_names[predicted_class]}**")
     else:
         st.warning(f"⚠️ Prediction class index not found: {predicted_class}")
-    
