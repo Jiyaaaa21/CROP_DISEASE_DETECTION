@@ -3,8 +3,9 @@ os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 
 import streamlit as st
 import numpy as np
-from tensorflow.keras.models import load_model
-from tensorflow.keras.preprocessing import image
+from keras.models import load_model
+from keras.utils import img_to_array
+from keras.preprocessing import image
 import json
 import os  
 from PIL import Image  
@@ -40,7 +41,7 @@ if uploaded_file:
 
     # Preprocess the image
     img = img.resize((224, 224))
-    img_array = image.img_to_array(img)
+    img_array = img_to_array(img)
     img_array = np.expand_dims(img_array, axis=0)
     img_array /= 255.0  
 
