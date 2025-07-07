@@ -2,8 +2,9 @@
 data/train/
 data/test/
 data/valid/
+*.h5
+models/**/*.h5
 
-models/**/best_model_*.h5
 Diseases_detection_app/best_model_densenet121.h5
 
 models_evaluation/*
