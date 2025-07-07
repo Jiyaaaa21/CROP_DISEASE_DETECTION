@@ -17,15 +17,6 @@ py.3/
 env/
 venv/
 
-# ✅ Ignore all model files inside subfolders
-models/DenseNet121/*
-models/MobileNetV2/*
-models/resnet50/*
-
-!models/DenseNet121/.gitkeep
-!models/MobileNetV2/.gitkeep
-!models/resnet50/.gitkeep
-
 *.png
 *.csv
 
