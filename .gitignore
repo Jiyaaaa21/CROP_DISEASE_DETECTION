@@ -6,6 +6,7 @@ data/valid/
 models/**/*.h5
 
 Diseases_detection_app/best_model_densenet121.h5
+models/resnet50/model_resnet50/best_model_resnet50.h5
 
 models_evaluation/*
 !models_evaluation/.gitkeep
