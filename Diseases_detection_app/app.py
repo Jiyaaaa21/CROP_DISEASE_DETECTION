@@ -54,4 +54,4 @@ if uploaded_file:
         st.success(f"🔍 Prediction: **{class_names[predicted_class]}**")
     else:
         st.warning(f"⚠️ Prediction class index not found: {predicted_class}")
-  
+    
