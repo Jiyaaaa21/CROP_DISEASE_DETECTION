@@ -34,12 +34,13 @@ This project is a robust, AI-powered system designed to classify plant diseases 
 ## 📁 Project Structure
 
 CROP_DISEASE_DETECTION/
-├── data/                           # Training, validation, test sets
+│
+├── data/                              # Training, validation, test sets
 │   ├── train/
 │   ├── valid/
 │   └── test/
 │
-├── notebooks/                      # Jupyter notebooks for EDA, preprocessing, training
+├── notebooks/                         # Jupyter notebooks for EDA, preprocessing, training
 │   ├── 01_data_exploration.ipynb
 │   ├── 02_data_cleaning.ipynb
 │   ├── 03_preprocessing_pipeline.ipynb
@@ -47,36 +48,38 @@ CROP_DISEASE_DETECTION/
 │   ├── 05_model_training_MobileNetV2.ipynb
 │   └── 06_model_training_DenseNet121.ipynb
 │
-├── models/                         # Trained models and accuracy plots
+├── models/                            # Trained models and accuracy plots
 │   ├── DenseNet121/
 │   │   └── model_DenseNet121/
+│   │       └── best_model_densenet121.h5
 │   ├── MobileNetV2/
 │   │   └── model_MobileNetV2/
+│   │       └── best_model_mobilenetv2.h5
 │   └── resnet50/
 │       └── model_resnet50/
+│           └── best_model_resnet50.h5
 │
-├── models_evaluation/              # Confusion matrices, classification reports
+├── models_evaluation/                 # Evaluation results
 │   ├── Evaluation.ipynb
 │   └── Evaluation_report/
 │       ├── classification_report_*.png
 │       └── confusion_matrix_*.png
 │
-├── models_comparison/              # Accuracy comparison graphs
+├── models_comparison/                # Accuracy comparison
 │   ├── comparison.ipynb
 │   └── model_comparison_metrics.png
 │
-├── Diseases_detection_app/         # Streamlit deployment
-│   ├── app.py                      # Streamlit app code
-│   ├── best_model_densenet121.h5  # Trained DenseNet121 model
-│   └── classes.json                # Label mapping file
-│
-├── data_exploration/               # Visualization and distribution images
+├── data_exploration/                 # Brightness & distribution visuals
 │   └── *.png
 │
-├── requirements.txt                # Python dependencies
-├── README.md                       # Project overview and instructions
-└── .gitignore                      # Files/folders to ignore in version control
-
+├── Diseases_detection_app/           # Streamlit deployment
+│   ├── app.py                        # Streamlit app code
+│   ├── best_model_densenet121.h5    # Final model for inference
+│   └── classes.json                  # Class label mapping
+│
+├── requirements.txt                  # Python dependencies
+├── README.md                         # Project overview and guide
+└── .gitignore                        # Files/folders ignored by Git
 
 
 ---
@@ -137,13 +140,16 @@ Source: https://www.kaggle.com/datasets/vipoooool/new-plant-diseases-dataset
 Contains over 87,000+ augmented images across 38 plant disease classes
 
 
-🙋‍♀️ About Me
-👩‍💻 Jyoti
-🎓 B.Tech (Artificial Intelligence), 3rd Year
-📫 Email: chandilajiya81@gmail.com
-🔗 www.linkedin.com/in/jyotichandila
-💡 Passionate about solving real-world problems in agriculture and healthcare using AI
+## 👩‍💻 About Me
 
-⭐ This project reflects my strong interest in combining AI with agriculture to solve impactful, real-world problems. I am actively looking for opportunities to apply my skills in internships and research projects.
+- 🙋‍♀️ **Name**: Jyoti  
+- 🎓 **Degree**: B.Tech (Artificial Intelligence), 3rd Year  
+- 📫 **Email**: [chandilajiya81@gmail.com](mailto:chandilajiya81@gmail.com)  
+- 🔗 **LinkedIn**: [www.linkedin.com/in/jyotichandila](https://www.linkedin.com/in/jyotichandila)  
+- 💡 **Passion**: Solving real-world problems in agriculture and healthcare using AI  
+
+⭐ *This project reflects my strong interest in combining AI with agriculture to solve impactful, real-world problems. I am actively looking for opportunities to apply my skills in internships and research projects.*
+
+
 
  
