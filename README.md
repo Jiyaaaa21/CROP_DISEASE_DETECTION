@@ -126,7 +126,7 @@ streamlit run app.py
 
 ---
 
-## 🖼️ Screenshots
+## 🖼️ Images
 
 ### 📊 Confusion Matrix  
 ![Confusion Matrix](models_evaluation/Evaluation_report/confusion_matrix_densenet121.png)
