@@ -1,7 +1,7 @@
 # 🌾 Crop Disease Detection using Deep Learning
 
-> 📌 Developed by **Jiya Chandila**, B.Tech AI Student  
-> 🔍 Internship Portfolio Project — Showcasing end-to-end AI skills in Deep Learning, Image Classification, and App Deployment.
+> 📌 Developed by **Jyoti**, B.Tech AI Student  
+> 🔍 Showcasing end-to-end AI skills in Deep Learning, Image Classification, and App Deployment.
 
 ---
 
@@ -78,7 +78,6 @@ CROP_DISEASE_DETECTION/
 
 ### 1. Clone the Repository
 
-```bash
 git clone https://github.com/Jiyaaaa21/CROP_DISEASE_DETECTION.git
 cd CROP_DISEASE_DETECTION
 
@@ -116,3 +115,4 @@ Contains over 87,000+ augmented images across 38 plant disease classes
 
 ⭐ This project reflects my strong interest in combining AI with agriculture to solve impactful, real-world problems. I am actively looking for opportunities to apply my skills in internships and research projects.
 
+ 
