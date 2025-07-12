@@ -2,7 +2,7 @@ numpy
 matplotlib
 seaborn
 opencv-python
-tensorflow>=2.10
+tensorflow==2.13.0
 keras
 scikit-learn
 Pillow
