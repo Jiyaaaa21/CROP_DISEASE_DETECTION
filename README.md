@@ -1,3 +1,4 @@
+
 # 🌾 Crop Disease Detection using Deep Learning
 
 > 📌 Developed by **Jyoti**, B.Tech AI Student  
@@ -33,7 +34,7 @@ This project is a robust, AI-powered system designed to classify plant diseases 
 
 ## 📁 Project Structure
 
-```text
+\`\`\`text
 CROP_DISEASE_DETECTION/
 ├── data/                        # Training, validation, test sets
 │   ├── train/
@@ -59,8 +60,8 @@ CROP_DISEASE_DETECTION/
 ├── models_evaluation/          # Evaluation notebooks and results
 │   ├── Evaluation.ipynb
 │   └── Evaluation_report/
-│       ├── classification_report_*.png
-│       └── confusion_matrix_*.png
+│       ├── classification_report_densenet121.png
+│       └── confusion_matrix_densenet121.png
 ├── models_comparison/          # Model comparison metrics
 │   ├── comparison.ipynb
 │   └── model_comparison_metrics.png
@@ -73,7 +74,7 @@ CROP_DISEASE_DETECTION/
 ├── requirements.txt            # Python dependencies
 ├── README.md                   # You're here 😄
 └── .gitignore                  # Files ignored by Git
-
+\`\`\`
 
 ---
 
@@ -105,33 +106,46 @@ CROP_DISEASE_DETECTION/
 
 ### 1. Clone the Repository
 
+\`\`\`bash
 git clone https://github.com/Jiyaaaa21/CROP_DISEASE_DETECTION.git
 cd CROP_DISEASE_DETECTION
+\`\`\`
 
 ### 2. Install Dependencies
 
+\`\`\`bash
 pip install -r requirements.txt
+\`\`\`
 
 ### 3. Run Streamlit App
 
+\`\`\`bash
 cd Diseases_detection_app
 streamlit run app.py
+\`\`\`
+
+---
 
 ## 🖼️ Screenshots
 
-### 📊 Confusion Matrix
-![Confusion Matrix](models_evaluation/Evaluation_report/classification_report_densenet121.png)
+### 📊 Confusion Matrix  
+![Confusion Matrix](models_evaluation/Evaluation_report/confusion_matrix_densenet121.png)
 
-### 📊 Model Evaluation
-![Models Comparison](models_comparison/model_comparison_metrics.png)
+### 📊 Classification Report  
+![Classification Report](models_evaluation/Evaluation_report/classification_report_densenet121.png)
 
-📦 Dataset
-Dataset Name: New Plant Diseases Dataset (Augmented)
+### 📊 Model Evaluation  
+![Model Comparison](models_comparison/model_comparison_metrics.png)
 
-Source: https://www.kaggle.com/datasets/vipoooool/new-plant-diseases-dataset
+---
 
-Contains over 87,000+ augmented images across 38 plant disease classes
+## 📦 Dataset
 
+**Dataset Name**: New Plant Diseases Dataset (Augmented)  
+**Source**: [Kaggle](https://www.kaggle.com/datasets/vipoooool/new-plant-diseases-dataset)  
+**Details**: Over 87,000+ augmented images across 38 plant disease classes.
+
+---
 
 ## 👩‍💻 About Me
 
@@ -145,4 +159,5 @@ Contains over 87,000+ augmented images across 38 plant disease classes
 
 
 
+ 
  
