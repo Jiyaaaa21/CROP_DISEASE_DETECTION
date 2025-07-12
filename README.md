@@ -33,22 +33,20 @@ This project is a robust, AI-powered system designed to classify plant diseases 
 
 ## 📁 Project Structure
 
+```text
 CROP_DISEASE_DETECTION/
-│
-├── data/                              # Training, validation, test sets
+├── data/                        # Training, validation, test sets
 │   ├── train/
 │   ├── valid/
 │   └── test/
-│
-├── notebooks/                         # Jupyter notebooks for EDA, preprocessing, training
+├── notebooks/                  # Jupyter notebooks (EDA, preprocessing, training)
 │   ├── 01_data_exploration.ipynb
 │   ├── 02_data_cleaning.ipynb
 │   ├── 03_preprocessing_pipeline.ipynb
 │   ├── 04_model_training_resnet50.ipynb
 │   ├── 05_model_training_MobileNetV2.ipynb
 │   └── 06_model_training_DenseNet121.ipynb
-│
-├── models/                            # Trained models and accuracy plots
+├── models/                     # Trained model files (.h5)
 │   ├── DenseNet121/
 │   │   └── model_DenseNet121/
 │   │       └── best_model_densenet121.h5
@@ -58,28 +56,23 @@ CROP_DISEASE_DETECTION/
 │   └── resnet50/
 │       └── model_resnet50/
 │           └── best_model_resnet50.h5
-│
-├── models_evaluation/                 # Evaluation results
+├── models_evaluation/          # Evaluation notebooks and results
 │   ├── Evaluation.ipynb
 │   └── Evaluation_report/
 │       ├── classification_report_*.png
 │       └── confusion_matrix_*.png
-│
-├── models_comparison/                # Accuracy comparison
+├── models_comparison/          # Model comparison metrics
 │   ├── comparison.ipynb
 │   └── model_comparison_metrics.png
-│
-├── data_exploration/                 # Brightness & distribution visuals
+├── data_exploration/           # Brightness & distribution visuals
 │   └── *.png
-│
-├── Diseases_detection_app/           # Streamlit deployment
-│   ├── app.py                        # Streamlit app code
-│   ├── best_model_densenet121.h5    # Final model for inference
-│   └── classes.json                  # Class label mapping
-│
-├── requirements.txt                  # Python dependencies
-├── README.md                         # Project overview and guide
-└── .gitignore                        # Files/folders ignored by Git
+├── Diseases_detection_app/     # Streamlit deployment
+│   ├── app.py                  # Streamlit app code
+│   ├── best_model_densenet121.h5
+│   └── classes.json            # Class label mapping
+├── requirements.txt            # Python dependencies
+├── README.md                   # You're here 😄
+└── .gitignore                  # Files ignored by Git
 
 
 ---
