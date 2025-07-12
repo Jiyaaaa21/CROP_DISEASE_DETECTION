@@ -120,10 +120,10 @@ streamlit run app.py
 ## 🖼️ Screenshots
 
 ### 📊 Confusion Matrix
-![Confusion Matrix](models_evaluation\Evaluation_report\classification_report_densenet121.png)
+![Confusion Matrix](models_evaluation/Evaluation_report/classification_report_densenet121.png)
 
 ### 📊 Model Evaluation
-![Models Comparison](models_comparison\model_comparison_metrics.png)
+![Models Comparison](models_comparison/model_comparison_metrics.png)
 
 📦 Dataset
 Dataset Name: New Plant Diseases Dataset (Augmented)
