@@ -34,18 +34,49 @@ This project is a robust, AI-powered system designed to classify plant diseases 
 ## 📁 Project Structure
 
 CROP_DISEASE_DETECTION/
+├── data/                           # Training, validation, test sets
+│   ├── train/
+│   ├── valid/
+│   └── test/
 │
-├── data/ # Training, validation, test sets
-├── notebooks/ # Jupyter notebooks for EDA, preprocessing, training
-├── models/ # Trained models and accuracy plots
-├── models_evaluation/ # Confusion matrix, classification reports
-├── models_comparison/ # Accuracy comparison graphs
-├── Diseases_detection_app/ # Streamlit deployment
-│ ├── app.py # Streamlit code
-│ ├── best_model_densenet121.h5
-│ └── classes.json
-├── requirements.txt # Python dependencies
-└── README.md # This file
+├── notebooks/                      # Jupyter notebooks for EDA, preprocessing, training
+│   ├── 01_data_exploration.ipynb
+│   ├── 02_data_cleaning.ipynb
+│   ├── 03_preprocessing_pipeline.ipynb
+│   ├── 04_model_training_resnet50.ipynb
+│   ├── 05_model_training_MobileNetV2.ipynb
+│   └── 06_model_training_DenseNet121.ipynb
+│
+├── models/                         # Trained models and accuracy plots
+│   ├── DenseNet121/
+│   │   └── model_DenseNet121/
+│   ├── MobileNetV2/
+│   │   └── model_MobileNetV2/
+│   └── resnet50/
+│       └── model_resnet50/
+│
+├── models_evaluation/              # Confusion matrices, classification reports
+│   ├── Evaluation.ipynb
+│   └── Evaluation_report/
+│       ├── classification_report_*.png
+│       └── confusion_matrix_*.png
+│
+├── models_comparison/              # Accuracy comparison graphs
+│   ├── comparison.ipynb
+│   └── model_comparison_metrics.png
+│
+├── Diseases_detection_app/         # Streamlit deployment
+│   ├── app.py                      # Streamlit app code
+│   ├── best_model_densenet121.h5  # Trained DenseNet121 model
+│   └── classes.json                # Label mapping file
+│
+├── data_exploration/               # Visualization and distribution images
+│   └── *.png
+│
+├── requirements.txt                # Python dependencies
+├── README.md                       # Project overview and instructions
+└── .gitignore                      # Files/folders to ignore in version control
+
 
 
 ---
