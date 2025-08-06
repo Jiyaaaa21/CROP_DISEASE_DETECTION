@@ -14,7 +14,7 @@ MODEL_PATH = "best_model_densenet121.h5"
 model = load_model(MODEL_PATH)
 
 # Load class labels
-CLASSES_PATH = "Diseases_Detection_app/classes.json"
+CLASSES_PATH = "classes.json"
 if os.path.exists(CLASSES_PATH):
     with open(CLASSES_PATH) as f:
         raw_classes = json.load(f)
