@@ -9,7 +9,8 @@ import json
 from PIL import Image
 
 # Load model
-MODEL_PATH = "Diseases_Detection_app/best_model_densenet121.h5"
+MODEL_PATH = "best_model_densenet121.h5"
+
 model = load_model(MODEL_PATH)
 
 # Load class labels
